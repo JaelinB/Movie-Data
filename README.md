@@ -1,15 +1,34 @@
-# Movie-Data
+# Social Network
 
-#    Program that takes in user input and displays information \n
-#    based on that input
+#    Program that takes in user input to print out the necessary n\
+#    information based ont he input that is given
 #
-#    The first part of the program is where the constants are defined
+#    The first part of the program displays the menu options for the user
 #
-#    The next part of the program is where all the functions are defined
+#    Next is the open_file fuction that opens the file based on the user input
 #
-#    The nex tparat of the program is the main function
-#    This is where the program runs and gives information based on user input
+#    The next function reads through the names.txt file and adds the \n
+#    the names to a list
 #
-#    Each number(1-5) displays different information and prompts for the user
-#    
-#    If the user enters 5 the program will quit
+#    Moving on, the read_friends funciton goes through the friends.csv file \n
+#    and adds the friends of the names to a list
+#
+#    After that, a dictionary is made that has all the friends of the names
+# 
+#    The next function finds the common friends from the names list
+# 
+#    Moving on, the find_max_friends function determines who has the most \n
+#    friends and the amount of friends they have
+# 
+#    Similarly, the next function finds the max amount of common friends
+# 
+#    Next, the second friends function is made to determine all the second \n
+#    friends
+# 
+#    Finally, the last function finds the max amount of second friends
+# 
+#    After all the functions are written, the main displays infromation \n
+#    based on the file and option that the user input
+# 
+#    Error messages are printed for invalid options, files, and names. \n
+#    a reprompt is followed 
